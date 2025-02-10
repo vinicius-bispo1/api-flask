@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    border: solid 1px;
+    align-items: center;  
+    height: 100vh;
+    background-color: blue;
+}
+
+h2{
+    color: white;
+}
+
+section{
+    width: 30vw;
+    height: 50vh;
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;  
+    border-radius: 20px;
+    background-color: rgb(7, 22, 136);
+}
+
+label {
+    color: white;
+}
